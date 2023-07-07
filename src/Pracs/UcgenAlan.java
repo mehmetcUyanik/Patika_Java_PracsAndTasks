@@ -2,7 +2,7 @@ package Pracs;
 
 import java.util.Scanner;
 
-public class HipotenusBulma {
+public class UcgenAlan {
 
     public static void main(String[] args) {
 

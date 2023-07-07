@@ -2,7 +2,7 @@ package Pracs;
 
 import java.util.Scanner;
 
-public class CiftSayiBulma {
+public class UcVeDortKatlari {
     public static void main(String[] args) {
         int number;
 

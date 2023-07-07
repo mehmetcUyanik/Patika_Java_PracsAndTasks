@@ -5,17 +5,22 @@ import java.util.Scanner;
 public class DaireAlanCevre {
     public static void main(String[] args) {
 
-        int r;
+        int r,a;
         double pi=3.14;
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("Dairenin yarıçapını giriniz : ");
         r=input.nextInt();
-        double alan = pi*r*r;
-        double cevre= 2*pi*r;
+        System.out.println("Merkez açısını giriniz : ");
+        a = input.nextInt();
 
-        System.out.println("Dairenin Alanı : "+alan);
-        System.out.println("Dairenin Cevresi : "+cevre);
+        double area = pi * r * r ;
+        double perimeter = 2 * pi * r;
+        double circleSlice = ((area * a) / 360);
+
+        System.out.println("Alan : " + area);
+        System.out.println("Çevre : " + perimeter);
+        System.out.println("Dilim Alanı : " + circleSlice);
     }
 }

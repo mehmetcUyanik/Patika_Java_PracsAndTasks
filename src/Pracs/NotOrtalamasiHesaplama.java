@@ -40,6 +40,7 @@ public class NotOrtalamasiHesaplama {
         double sonuc = toplam/ 6.0;
 
         System.out.println("Ortalamanız : " +sonuc);
+        System.out.println(sonuc < 60 ? "Sınıfta Kaldınız." : "Sınıfı Geçtiniz.");
 
     }
 }

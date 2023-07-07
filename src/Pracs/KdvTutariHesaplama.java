@@ -12,6 +12,11 @@ public class KdvTutariHesaplama {
         Scanner input = new Scanner(System.in);
         System.out.println("Tutar Giriniz : ");
         tutar = input.nextDouble();
+
+        if (tutar > 1000){
+            kdvOran = 0.8;
+        }
+
         double kdvTutar = tutar * kdvOran;
         double kdvliTutar = tutar + kdvTutar;
 

@@ -12,7 +12,7 @@ public class CiftSayiBulma {
         number= input.nextInt();
 
         for (int i=1;i <=number;i++){
-            if (i%2==0){
+            if (i%3==0 && i%4==0){
                 System.out.println(i);
             }
         }

@@ -3,6 +3,6 @@ package Tasks.MaceraOyunu;
 public class Mine extends BattleLoc{
 
     public Mine(Player player) {
-        super(player,"Maden",new Snake(),"Rastgele",5);
+        super(player,"Maden",new Snake(),"-",5);
     }
 }
